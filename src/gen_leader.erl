@@ -100,7 +100,8 @@
 -type option() :: {'workers',    Workers::[node()]}
                 | {'vardir',     Dir::string()}
                 | {'bcast_type', Type::bcast_type()}
-                | {'heartbeat',  Seconds::integer()}.
+                | {'heartbeat',  Seconds::integer()}
+                | {'seed',       atom()}.
 
 -type options() :: [option()].
 

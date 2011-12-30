@@ -101,7 +101,8 @@
                 | {'vardir',     Dir::string()}
                 | {'bcast_type', Type::bcast_type()}
                 | {'heartbeat',  Seconds::integer()}
-                | {'seed',       atom()}.
+                | {'seed',       atom()}
+                | none().
 
 -type options() :: [option()].
 
